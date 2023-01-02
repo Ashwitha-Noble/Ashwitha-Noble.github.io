@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width,initial-scale=1.0">
+    <title>Ashwitha Noble</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+	 <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="style.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logobgr.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <!--<i class="fa-regular fa-circle-left" onclick="hideMenu()"></i>--->
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="certificates.html">CERTIFICATES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>ABOUT ME</h1>
+</section>
+<!--about-->
+	<section class="blog">
+	<h1>Hello, I'm Ashwitha</h1>
+    <p style="font-family:sans-serif;font-size: 22px;text-align: justify">I serve as a computer engineer focusing on ML/AI.
+The most important aspect of my life is to be creative, and inspired by all the art
+around me in order to create the best out of nothing. I'm also a designer; I do
+websites, logos, magazine covers, and many more. I'm a hustler who solely lives
+by the motto of "I only fail when i stop trying".</p>  
+	</section>
+<!--skills-->
+	<section class="blog">  
+	<H1><B>SKILLS</B></H1>
+	<div class="row">
+        <div style="background-color:#ffffff;" class="blog-col" >
+            <img class="animated-gif" src="images/leadership.gif">
+			<h3>LEADERSHIP</h3>
+            <P>Leader of various team projects and successfully led the team in winning in hackathons</P>
+        </div>
+        <div style="background-color:#ffffff;" class="blog-col">
+            <img class="animated-gif"src="images/hustler.gif">
+			<h3>HUSTLER</h3>
+            <P>I'm a hardworking and dedicated individual who can accomplish all tasks within the time frame specified.</P>
+        </div>
+        <div style="background-color:#ffffff;" class="blog-col">
+            <img class="animated-gif" src="images/eloquent.gif">
+			<h3>ELOQUENT</h3>
+            <P>I have exceptional public speaking abilities and have attended several events to pitch my ideas.</P>
+        </div>
+    </div>
+	<div class="row">
+        <div style="background-color:#ffffff;" class="blog-col">
+           <img class="animated-gif" src="images/problem.gif">
+			<h3>PROBLEM SOLVING</h3>
+            <P>I'm a creative problem solver who has provided 10+ solutions to a wide range of problem statements.</P>
+        </div>
+        <div style="background-color:#ffffff;" class="blog-col">
+            <img class="animated-gif" src="images/autodidact.gif">
+			<h3>AUTODIDACT</h3>
+            <P>I am capable of learning all conceptson my own and keep me updated with current technologies. </P>
+        </div>
+        <div style="background-color:#ffffff;" class="blog-col">
+            <img class="animated-gif" src="images/multitasking.gif">
+			<h3>MULTITASKING</h3>
+            <P>I can manage tasks from a variety offields since I am a polymath who is constantly eager to learn new things.</P>
+        </div>
+    </div>
+	</section>
+<!-------Javascript for toggle menu----->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0 ";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
